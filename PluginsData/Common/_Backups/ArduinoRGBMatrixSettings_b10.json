@@ -1,0 +1,823 @@
+{
+  "LastGameProfiles": {
+  },
+  "LastUsedProfile": "00000000-0000-0000-0000-000000000000",
+  "Rotation": 0,
+  "GlobalBrightness": 50.659999999999876,
+  "Profiles": [
+    {
+      "TestLedsGameData": {
+        "GearEx": 1,
+        "FuelMax": 100.0,
+        "RPMSMax": 10000.0,
+        "TurboMax": 3.5,
+        "TurnIndicatorLeftEnabled": false,
+        "TurnIndicatorRightEnabled": false,
+        "SessionBestDeltaEx": 0.0,
+        "AllTimeBestDeltaEx": 0.0,
+        "DRSEnabled": false,
+        "DRSAvailable": false,
+        "MaxRpm": 10000.0,
+        "GameRunning": true,
+        "GameName": null,
+        "FuelPercent": 0.0,
+        "Fuel": 0.0,
+        "RPMPercent": 0.0,
+        "RPMRedlineReached": false,
+        "SpeedKmh": 0.0,
+        "SpeedMph": 0.0,
+        "Turbo": 0.0,
+        "TurboPercent": 0.0,
+        "Gear": "1",
+        "IsInPitLane": false,
+        "PitLimiterOn": false,
+        "AbsEnabled": false,
+        "AbsActive": false,
+        "TCEnabled": false,
+        "TCActive": false,
+        "LowFuelAlert": false,
+        "SpotterCarLeft": false,
+        "SpotterCarRight": false,
+        "BlackFlag": false,
+        "YellowFlag": false,
+        "WhiteFlag": false,
+        "BlueFlag": false,
+        "GreenFlag": false,
+        "CarModel": null,
+        "CarStartedTime": "0001-01-01T00:00:00",
+        "SessionBestDelta": 0.0,
+        "AllTimeBestDelta": 0.0
+      },
+      "AutomaticSwitch": false,
+      "LedContainers": [
+        {
+          "ClearBackgroundWhenActive": false,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "TotalDuration": 2500,
+                "Frames": [
+                  {
+                    "FrameId": "622350cc-e830-4641-913a-d2c382543f07",
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "X": 0,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 0,
+                          "Color": "55, 180, 232"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 0,
+                          "Color": "55, 180, 232"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 0,
+                          "Color": "Black"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "X": 0,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 1,
+                          "Color": "55, 180, 232"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 1,
+                          "Color": "55, 180, 232"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 1,
+                          "Color": "55, 180, 232"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 1,
+                          "Color": "55, 180, 232"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 1,
+                          "Color": "Black"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "X": 0,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 2,
+                          "Color": "55, 180, 232"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 2,
+                          "Color": "55, 180, 232"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 2,
+                          "Color": "Black"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "X": 0,
+                          "Y": 3,
+                          "Color": "55, 180, 232"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 3,
+                          "Color": "55, 180, 232"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 3,
+                          "Color": "55, 180, 232"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 3,
+                          "Color": "55, 180, 232"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 3,
+                          "Color": "55, 180, 232"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "X": 0,
+                          "Y": 4,
+                          "Color": "55, 180, 232"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 4,
+                          "Color": "55, 180, 232"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 4,
+                          "Color": "55, 180, 232"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 4,
+                          "Color": "55, 180, 232"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "X": 0,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 5,
+                          "Color": "55, 180, 232"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 5,
+                          "Color": "55, 180, 232"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 5,
+                          "Color": "55, 180, 232"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 5,
+                          "Color": "55, 180, 232"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 5,
+                          "Color": "Black"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "X": 0,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 6,
+                          "Color": "55, 180, 232"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 6,
+                          "Color": "55, 180, 232"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 6,
+                          "Color": "55, 180, 232"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 6,
+                          "Color": "55, 180, 232"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 6,
+                          "Color": "Black"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "X": 0,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 7,
+                          "Color": "55, 180, 232"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 7,
+                          "Color": "55, 180, 232"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 7,
+                          "Color": "Black"
+                        }
+                      }
+                    },
+                    "FrameDuration": 2000
+                  },
+                  {
+                    "FrameId": "4a76541c-8d65-47ca-a274-04b8e1c95c87",
+                    "Colors": {
+                      "0": {
+                        "0": {
+                          "X": 0,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 0,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 0,
+                          "Color": "Black"
+                        }
+                      },
+                      "1": {
+                        "0": {
+                          "X": 0,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 1,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 1,
+                          "Color": "Black"
+                        }
+                      },
+                      "2": {
+                        "0": {
+                          "X": 0,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 2,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 2,
+                          "Color": "Black"
+                        }
+                      },
+                      "3": {
+                        "0": {
+                          "X": 0,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 3,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 3,
+                          "Color": "Black"
+                        }
+                      },
+                      "4": {
+                        "0": {
+                          "X": 0,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 4,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 4,
+                          "Color": "Black"
+                        }
+                      },
+                      "5": {
+                        "0": {
+                          "X": 0,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 5,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 5,
+                          "Color": "Black"
+                        }
+                      },
+                      "6": {
+                        "0": {
+                          "X": 0,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 6,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 6,
+                          "Color": "Black"
+                        }
+                      },
+                      "7": {
+                        "0": {
+                          "X": 0,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "1": {
+                          "X": 1,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "2": {
+                          "X": 2,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "3": {
+                          "X": 3,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "4": {
+                          "X": 4,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "5": {
+                          "X": 5,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "6": {
+                          "X": 6,
+                          "Y": 7,
+                          "Color": "Black"
+                        },
+                        "7": {
+                          "X": 7,
+                          "Y": 7,
+                          "Color": "Black"
+                        }
+                      }
+                    },
+                    "FrameDuration": 500
+                  }
+                ],
+                "SelectedFrameId": "622350cc-e830-4641-913a-d2c382543f07",
+                "PenColor": "55, 180, 232"
+              },
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "1aab3775-cffb-4d9b-bcc3-86e7f85f160f",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true
+            }
+          ],
+          "StackLeftToRight": false,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "30d6a83b-a214-45b6-b81a-7ea2861fdae0",
+          "ContainerType": "GameNotRunningGroupContainer",
+          "Description": "Enable content if the game is not running",
+          "IsEnabled": true
+        },
+        {
+          "ClearBackgroundWhenActive": true,
+          "LedContainers": [
+            {
+              "FontName": "THICK8x8",
+              "Color": "Blue",
+              "RedlineColor": "Red",
+              "RedlineBlink": true,
+              "RedlineBlinkDelay": 100,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "d45999f1-bc33-4519-8727-f1906dcb50b7",
+              "ContainerType": "GearContainer",
+              "Description": "Show current gear",
+              "IsEnabled": true
+            },
+            {
+              "EnableYellowAnimation": true,
+              "EnableBlackAnimation": true,
+              "EnableBlueAnimation": true,
+              "EnableWhiteAnimation": true,
+              "EnableGreenAnimation": true,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "61854a17-8cd8-4ed8-8edd-01c1d0b4d03a",
+              "ContainerType": "FlagsContainer",
+              "Description": "Show flags animation",
+              "IsEnabled": true
+            },
+            {
+              "ClearBackgroundWhenActive": true,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "1bd714ba-8d56-46fc-9e51-e6818fe35e3c",
+              "ContainerType": "SpotterContainer",
+              "Description": "Show spotter overlay",
+              "IsEnabled": true
+            }
+          ],
+          "StackLeftToRight": false,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "c2d50d93-f2da-46d6-abea-78184dbee2ba",
+          "ContainerType": "GameRunningGroupContainer",
+          "Description": "Enable content if the game is running",
+          "IsEnabled": true
+        }
+      ],
+      "LastLoaded": "0001-01-01T00:00:00",
+      "Name": "Default Profile",
+      "ProfileId": "f12ee790-9316-4e91-8d29-387515862373",
+      "GlobalBrightness": 50.0,
+      "UseProfileBrightness": false
+    }
+  ],
+  "IsTM1638": false,
+  "ForcedLedCount": -1
+}

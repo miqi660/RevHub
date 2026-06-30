@@ -1,0 +1,411 @@
+{
+  "DashParameters": {
+    "AudiConcept": {
+      "LastUse": null,
+      "Category": "AUDI",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": true,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "ConceptDash_v4": {
+      "LastUse": null,
+      "Category": "Generic",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": true,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "ControlCenter": {
+      "LastUse": "2018-05-10T15:12:04.477578+02:00",
+      "Category": "Generic",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "Ferrari-599xx": {
+      "LastUse": null,
+      "Category": "Ferrari",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": true,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "GaugeLand": {
+      "LastUse": null,
+      "Category": "Generic",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": true,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "MapOverlay": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "MYTEC": {
+      "LastUse": null,
+      "Category": "MYTEC",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": true,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "MobileDash": {
+      "LastUse": null,
+      "Category": "Generic",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": true,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "MobileDashWithRelativeTimings": {
+      "LastUse": null,
+      "Category": "Generic",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": true,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "AIM GS-DASH": {
+      "LastUse": "2019-05-11T19:54:02.574685+02:00",
+      "Category": "AIM",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "LEDS MODEL": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "MYTEC C127": {
+      "LastUse": null,
+      "Category": "MYTEC",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "MYTEC C127 - System Info": {
+      "LastUse": null,
+      "Category": "System Infos",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "System Info": {
+      "LastUse": null,
+      "Category": "System Infos",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "AIM MXS": {
+      "LastUse": null,
+      "Category": "AIM",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Fuel Box": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Global map": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Hud 1": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Leaderboard": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Live map": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Wheels Infos": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub Leaderboard": {
+      "LastUse": null,
+      "Category": "LEADERBOARD",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "MYTEC D153": {
+      "LastUse": null,
+      "Category": "MYTEC",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Sector Box": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - Mini Leaderboard": {
+      "LastUse": null,
+      "Category": null,
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "SimHub - BOSCH DDU8": {
+      "LastUse": null,
+      "Category": "BOSCH",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    },
+    "Simhub - FordGT": {
+      "LastUse": null,
+      "Category": "Generic",
+      "AutoLoop": false,
+      "AutoStart": false,
+      "UseWebEngine": false,
+      "Favourite": false,
+      "SendToUSBD480": false,
+      "SendToUSBD480Idle": false,
+      "AllowDashRedlineFlash": true
+    }
+  },
+  "LayoutParameters": null,
+  "KnownWebDevices": [
+    {
+      "Name": "192.168.0.30, Generic Smartphone, Android, Chrome",
+      "Id": "4703bd26-7d18-4c36-9900-00fa36cb38eb",
+      "UseCustomControls": false,
+      "LastSeen": "0001-01-01T00:00:00",
+      "Actions": [
+        {
+          "Key": "GraphicalDashPlugin.4703bd26-7d18-4c36-9900-00fa36cb38eb_NextScreen",
+          "Value": "Show next dash screen"
+        },
+        {
+          "Key": "GraphicalDashPlugin.4703bd26-7d18-4c36-9900-00fa36cb38eb_PreviousScreen",
+          "Value": "Show previous dash screen"
+        },
+        {
+          "Key": "GraphicalDashPlugin.4703bd26-7d18-4c36-9900-00fa36cb38eb_ActionA",
+          "Value": "Trigger dash action A (depends of the dash design)"
+        },
+        {
+          "Key": "GraphicalDashPlugin.4703bd26-7d18-4c36-9900-00fa36cb38eb_ActionB",
+          "Value": "Trigger dash action B (depends of the dash design)"
+        },
+        {
+          "Key": "GraphicalDashPlugin.4703bd26-7d18-4c36-9900-00fa36cb38eb_ActionC",
+          "Value": "Trigger dash action C (depends of the dash design)"
+        },
+        {
+          "Key": "GraphicalDashPlugin.4703bd26-7d18-4c36-9900-00fa36cb38eb_ActionD",
+          "Value": "Trigger dash action D (depends of the dash design)"
+        }
+      ]
+    },
+    {
+      "Name": "127.0.0.1, Other, Windows, Chrome",
+      "Id": "f0cd64cf-7a1f-4371-b736-14d579222774",
+      "UseCustomControls": false,
+      "LastSeen": "2019-02-13T21:40:57.0405601+01:00",
+      "Actions": [
+        {
+          "Key": "GraphicalDashPlugin.f0cd64cf-7a1f-4371-b736-14d579222774_NextScreen",
+          "Value": "Show next dash screen"
+        },
+        {
+          "Key": "GraphicalDashPlugin.f0cd64cf-7a1f-4371-b736-14d579222774_PreviousScreen",
+          "Value": "Show previous dash screen"
+        },
+        {
+          "Key": "GraphicalDashPlugin.f0cd64cf-7a1f-4371-b736-14d579222774_ActionA",
+          "Value": "Trigger dash action A (depends of the dash design)"
+        },
+        {
+          "Key": "GraphicalDashPlugin.f0cd64cf-7a1f-4371-b736-14d579222774_ActionB",
+          "Value": "Trigger dash action B (depends of the dash design)"
+        },
+        {
+          "Key": "GraphicalDashPlugin.f0cd64cf-7a1f-4371-b736-14d579222774_ActionC",
+          "Value": "Trigger dash action C (depends of the dash design)"
+        },
+        {
+          "Key": "GraphicalDashPlugin.f0cd64cf-7a1f-4371-b736-14d579222774_ActionD",
+          "Value": "Trigger dash action D (depends of the dash design)"
+        }
+      ]
+    }
+  ],
+  "USBD480CycleOnlyFavourites": true,
+  "CycleOnlyFavourites": true,
+  "USBD480Luminosity": 255,
+  "USBD480PowerOffBacklightOnExit": false,
+  "AlwaysStartDashOnTop": true,
+  "USBD480PSEBackPlateEnabled": false,
+  "USBD480PSEBackPlateBrightness": 16,
+  "USBD480Enabled": false,
+  "USBD480SerialNumber": null,
+  "USBD480AttachToSpecificSerialNumber": false,
+  "USBD480FlipDisplay": false,
+  "USBD480565Encoding": false,
+  "USBD480RefreshRateLimit": 50,
+  "EnableOnDashMessaging": true,
+  "MinimizeOverlayEditorOnLoad": false,
+  "RedlineFlashColor": "#FFFF0000",
+  "RedlineFlashOpacity": 76,
+  "USBD480PowerOffwhenNotIngame": false,
+  "USBD480enableTouch": true,
+  "SaveAndRestoreOppenedDashboards": false,
+  "Layouts": null,
+  "RedlineDashFlash": false,
+  "ShowFavouritesOnly": false,
+  "ShowRecentDashOntop": true,
+  "ShowRecentDashOntop_Count": 2,
+  "UsePlayerClassLeaderBoards": false,
+  "ShowGapFromPlayerLeaderboard": false,
+  "USBD480UseIdleDash": false,
+  "VoCoreSettings": {
+    "Brightness": 255,
+    "DisableWhenNotPlaying": false,
+    "Enabled": false,
+    "EnableTouch": true,
+    "FlipDisplay": true,
+    "RefreshRateLimit": 60,
+    "CurrentDashboard": "AIM GS-DASH",
+    "CycleFavoriteOnly": false,
+    "UseIdleDashboard": false,
+    "CurrentIdleDashboard": null
+  },
+  "RefreshSpeed_WebEx": 0,
+  "RefreshSpeed_DesktopEx": 0,
+  "UseWebSync": false
+}

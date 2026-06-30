@@ -3,8 +3,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
+using RevHub.Data.Parsers;
 
-namespace ForzaUDPReader.WPF.Data
+namespace RevHub.Data
 {
     /// <summary>
     /// UDP 数据接收器
@@ -12,6 +13,7 @@ namespace ForzaUDPReader.WPF.Data
     public class UdpReceiver : IDisposable
     {
         private readonly UdpClient _udpClient;
+        private readonly ITelemetryParser _parser;
         private CancellationTokenSource _cancellationTokenSource;
         private Task _receiveTask;
         private bool _disposed;
@@ -47,13 +49,32 @@ namespace ForzaUDPReader.WPF.Data
         public DateTime LastReceiveTime { get; private set; }
 
         /// <summary>
-        /// 创建 UDP 接收器
+        /// 创建 UDP 接收器（使用默认 Forza 解析器，向后兼容）
         /// </summary>
         /// <param name="port">监听端口，默认 21337</param>
-        public UdpReceiver(int port = 21337)
+        public UdpReceiver(int port = 21337) : this(port, new ForzaParser())
+        {
+        }
+
+        /// <summary>
+        /// 创建 UDP 接收器（指定解析器）
+        /// </summary>
+        /// <param name="port">监听端口</param>
+        /// <param name="parser">遥测数据解析器</param>
+        /// <param name="exclusiveAddress">是否独占端口 (默认 false，允许端口共享)</param>
+        public UdpReceiver(int port, ITelemetryParser parser, bool exclusiveAddress = false)
         {
             Port = port;
-            _udpClient = new UdpClient(port);
+            _parser = parser ?? throw new ArgumentNullException(nameof(parser));
+
+            // 允许端口共享，避免与游戏冲突
+            _udpClient = new UdpClient();
+            _udpClient.Client.SetSocketOption(
+                SocketOptionLevel.Socket,
+                SocketOptionName.ReuseAddress,
+                !exclusiveAddress
+            );
+            _udpClient.Client.Bind(new IPEndPoint(IPAddress.Any, port));
             _udpClient.Client.ReceiveBufferSize = 1024 * 1024; // 1MB 缓冲区
         }
 
@@ -102,9 +123,9 @@ namespace ForzaUDPReader.WPF.Data
                 {
                     var result = await _udpClient.ReceiveAsync();
 
-                    if (result.Buffer.Length >= ForzaTelemetryData.Size)
+                    if (_parser.IsValidPacketSize(result.Buffer.Length))
                     {
-                        var data = ForzaTelemetryData.FromBytes(result.Buffer);
+                        var data = _parser.Parse(result.Buffer);
                         PacketCount++;
                         LastReceiveTime = DateTime.Now;
 

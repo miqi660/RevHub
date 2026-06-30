@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace ForzaUDPReader.WPF.Converters
+namespace RevHub.Converters
 {
     /// <summary>
     /// 将 bool 转换为 GridLength：

@@ -1,0 +1,636 @@
+{
+  "States": {
+    "LEADERBOARD": {
+      "Expanded": true
+    },
+    "AUDI": {
+      "Expanded": true
+    },
+    "收藏夹": {
+      "Expanded": true
+    },
+    "Last used": {
+      "Expanded": true
+    },
+    "Generic": {
+      "Expanded": true
+    },
+    "MYTEC": {
+      "Expanded": true
+    },
+    "System Infos": {
+      "Expanded": true
+    },
+    "BOSCH": {
+      "Expanded": true
+    },
+    "最近使用": {
+      "Expanded": true
+    },
+    "Uncategorized": {
+      "Expanded": true
+    },
+    "未分类": {
+      "Expanded": true
+    },
+    "AIM": {
+      "Expanded": true
+    },
+    "Ferrari": {
+      "Expanded": true
+    }
+  },
+  "OverlayLayoutsExpanded": true,
+  "OverlaysExpanded": true,
+  "DefaultRenderMode Beta1": 1,
+  "GlobalDashWindowSettings": {
+    "ControlsBaseScale": 103.63338788870699,
+    "ShowOnScreenControls": true,
+    "ShowInTaskBarWhenFullScreen": true,
+    "DefaultRenderMode": 0,
+    "RefreshSpeed_HTMLRenderer": 0,
+    "RefreshSpeed_WPFRenderer": 0
+  },
+  "DashParameters": {
+    "AudiConcept": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "AUDI",
+      "RenderMode": 0,
+      "UseWebEngine": true,
+      "LastTransparency": false
+    },
+    "ConceptDash_v4": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "Generic",
+      "RenderMode": 0,
+      "UseWebEngine": true,
+      "LastTransparency": false
+    },
+    "ControlCenter": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2018-05-10T21:12:04.477578+08:00",
+      "Category": "Generic",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "Ferrari-599xx": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "Ferrari",
+      "RenderMode": 0,
+      "UseWebEngine": true,
+      "LastTransparency": false
+    },
+    "GaugeLand": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "Generic",
+      "RenderMode": 0,
+      "UseWebEngine": true,
+      "LastTransparency": false
+    },
+    "MapOverlay": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "MYTEC": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "MYTEC",
+      "RenderMode": 0,
+      "UseWebEngine": true,
+      "LastTransparency": false
+    },
+    "MobileDash": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "Generic",
+      "RenderMode": 0,
+      "UseWebEngine": true,
+      "LastTransparency": false
+    },
+    "MobileDashWithRelativeTimings": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "Generic",
+      "RenderMode": 0,
+      "UseWebEngine": true,
+      "LastTransparency": false
+    },
+    "AIM GS-DASH": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2019-05-12T01:54:02.574685+08:00",
+      "Category": "AIM",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "LEDS MODEL": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "MYTEC C127": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "MYTEC",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "MYTEC C127 - System Info": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "System Infos",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "System Info": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "System Infos",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "AIM MXS": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "AIM",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Fuel Box": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Global map": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Hud 1": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Leaderboard": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Live map": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Wheels Infos": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub Leaderboard": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T00:52:06.934475+08:00",
+      "Category": "LEADERBOARD",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "MYTEC D153": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T00:18:31.2217289+08:00",
+      "Category": "MYTEC",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Sector Box": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - Mini Leaderboard": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - BOSCH DDU8": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "Category": "BOSCH",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "Simhub - FordGT": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T17:42:11.8656648+08:00",
+      "Category": "Generic",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "SimHub - SimpleDash": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T11:00:58.497265+08:00",
+      "RenderMode": 0,
+      "Favourite": true,
+      "LastTransparency": false
+    },
+    "SimHub - Truck Route Advisor": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T00:15:14.977736+08:00",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "benofficial2 - iRacing Inputs": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": true,
+      "LastUse": "2026-06-24T00:51:38.9477938+08:00",
+      "RenderMode": 1,
+      "AllowDashRedlineFlash": false,
+      "LastTransparency": true
+    },
+    "benofficial2 - iRacing Air Temperature": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "tix": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T00:17:26.9653188+08:00",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "tixfb": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T00:13:11.5879629+08:00",
+      "RenderMode": 0,
+      "LastTransparency": false
+    },
+    "tahr": {
+      "ActionBindingParameters": {
+        "ActionActionA": {},
+        "ActionActionB": {},
+        "ActionActionC": {},
+        "ActionActionD": {},
+        "ActionFirstScreen": {},
+        "ActionNextScreen": {},
+        "ActionPreviousScreen": {}
+      },
+      "OverrideControls": false,
+      "LastUse": "2026-06-24T13:12:30.2928679+08:00",
+      "RenderMode": 1,
+      "LastTransparency": false
+    }
+  },
+  "LayoutParameters": {
+    "TIX": {
+      "LastUse": null,
+      "AutoStart": false,
+      "StartAction": null,
+      "GameParameters": {
+        "AssettoCorsa": {
+          "AutoStart": true
+        },
+        "FH6": {
+          "AutoStart": false
+        },
+        "FH5": {
+          "AutoStart": false
+        },
+        "AssettoCorsaCompetizione": {
+          "AutoStart": false
+        },
+        "BeamNgDrive": {
+          "AutoStart": false
+        },
+        "WRCX": {
+          "AutoStart": false
+        }
+      }
+    }
+  },
+  "KnownWebDevices": [
+    {
+      "Name": "192.168.0.30, Generic Smartphone, Android, Chrome",
+      "Id": "4703bd26-7d18-4c36-9900-00fa36cb38eb",
+      "Show": true,
+      "LastSeen": "0001-01-01T00:00:00"
+    },
+    {
+      "Name": "127.0.0.1, Other, Windows, Chrome",
+      "Id": "f0cd64cf-7a1f-4371-b736-14d579222774",
+      "Show": true,
+      "LastSeen": "2019-02-14T04:40:57.0405601+08:00"
+    }
+  ],
+  "CycleOnlyFavourites": true,
+  "AlwaysStartDashOnTop": true,
+  "EnableOnDashMessaging": true,
+  "MinimizeOverlayEditorOnLoad": false,
+  "MinimizeSimHubWindowOnLayoutLoad": true,
+  "RedlineFlashColor": "#FFFF0000",
+  "RedlineFlashOpacity": 76,
+  "SaveAndRestoreOppenedDashboards": false,
+  "LayoutsV2": null,
+  "RedlineDashFlash": false,
+  "ShowRecentDashOntop": true,
+  "ShowRecentDashOntop_Count": 2,
+  "UsePlayerClassLeaderBoards": false,
+  "ShowGapFromPlayerLeaderboard": false,
+  "MapOnlineSuggestionDiscarded": false,
+  "RefreshSpeed_WebEx": 0,
+  "RemoteRenderingFPSLimit": 30,
+  "RemoteRenderingJPEGQuality": 85,
+  "RefreshSpeed_DesktopEx": 0,
+  "OverlaySettings": {
+    "ShowInformationMessage": true,
+    "OverlaySettingsExpanded": true
+  },
+  "DeferOverlayLayoutStart": false,
+  "OverlayLayoutDeferMode": 0,
+  "DeferToGameConnection": false
+}

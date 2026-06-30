@@ -1,0 +1,12 @@
+{
+  "JoystickSettings": [
+    {
+      "DiscoveredAt": "2026-06-23T23:24:44.4240181+08:00",
+      "LastConnectedAt": "2026-06-24T16:20:41.705518+08:00",
+      "InstanceId": "09eeb730-69e6-11f1-8009-444553540000",
+      "IsXinput": false,
+      "Enabled": true,
+      "Name": "TiX_FFB_Handle"
+    }
+  ]
+}

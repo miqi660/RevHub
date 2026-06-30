@@ -1,0 +1,72 @@
+{
+  "EnablePerGearRedline": false,
+  "CarId": "Car_461",
+  "CarModel": "Car_461",
+  "GameRedline": 0.0,
+  "MaxFuel": 100.0,
+  "MaxGears": 0.0,
+  "MaxRpm": 8999.0,
+  "OverrideMaxFuel": false,
+  "OverrideMaxRpm": false,
+  "OverrideRedline": false,
+  "Redline": 8549.0,
+  "GearSettings": [
+    {
+      "UpshiftRpm": 8549.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    },
+    {
+      "UpshiftRpm": 20000.0
+    }
+  ]
+}

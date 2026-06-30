@@ -1,0 +1,144 @@
+{
+  "LastGameProfiles": {
+    "assettocorsa": "00000000-0000-0000-0000-000000000000",
+    "fh6": "00000000-0000-0000-0000-000000000000",
+    "fh5": "00000000-0000-0000-0000-000000000000"
+  },
+  "LastUsedProfile": "00000000-0000-0000-0000-000000000000",
+  "LastUsedProfileBuiltIn": "00000000-0000-0000-0000-000000000000",
+  "activeProfileId": "a703f289-661b-4e7b-9fe4-6e5eeae22ca4",
+  "OutputSettings": {
+    "ArduinoOutput": {
+      "Connected": null,
+      "IsEnabled": false,
+      "ChannelMappings": [
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        },
+        {
+          "Role": 0
+        }
+      ]
+    },
+    "HRSFanOutput": {
+      "HSROutputSettings": {
+        "Devices": []
+      },
+      "Connected": null,
+      "IsEnabled": false
+    },
+    "SymProjectsFanOutput": {
+      "Connected": null,
+      "IsEnabled": false
+    },
+    "RaceSolutionsFanOutput": {
+      "OutputSettings": {
+        "Devices": []
+      },
+      "Connected": null,
+      "IsEnabled": false
+    },
+    "ThreeDRapFeelingUpgradeUSBOutputs": {
+      "OutputSettings": {
+        "Devices": []
+      },
+      "Connected": null,
+      "IsEnabled": false
+    }
+  },
+  "CorrectionSettings": {
+    "SplineFilter": {
+      "ControlPoints": [
+        "0;0",
+        "20;20",
+        "40;40",
+        "60;60",
+        "80;80",
+        "100;100"
+      ],
+      "CurveFitting": 0,
+      "TypeName": "SplineFilter"
+    },
+    "UseCorrectionCurve": false,
+    "ApplyToStaticWind": true,
+    "ApplyToDynamicWind": true
+  },
+  "ShowEnableToggle": true,
+  "IncrementSteps": 5,
+  "IsEnabled": true,
+  "ProfileSwitchingMode": 0,
+  "ProfilesCycleMode": 0,
+  "CurrentProfileGame": {
+    "Family": 1,
+    "CurrentGame": "FH5"
+  },
+  "Profiles": [
+    {
+      "CarChoices": [],
+      "GlobalGain": 100,
+      "StaticWindSettings": {
+        "Gain": 100,
+        "IsEnabled": false,
+        "UseLeftChannel": true,
+        "UseRightChannel": true,
+        "UseCenterChannel": true,
+        "EnableInRace": false,
+        "IsActive": true
+      },
+      "DynamicWindSettings": {
+        "Gamma": 1.0,
+        "MaxGain": 100.0,
+        "MinGain": 0.0,
+        "CockpitMode": false,
+        "UseCurving": true,
+        "Curvature": 50,
+        "GammaFactor": 10.0,
+        "IsEnabled": true,
+        "MaximumSpeed": 200.0,
+        "MaximumSpeedMode": 0,
+        "ManualMaximumSpeed": 200.0,
+        "IsDraftEffectEnabled": true,
+        "DraftEffect": 50.0,
+        "UseIdleCenter": false,
+        "UseIdleLeft": false,
+        "UseIdleRight": false
+      },
+      "LastLoaded": "0001-01-01T00:00:00",
+      "Name": "Default profile",
+      "ProfileId": "a703f289-661b-4e7b-9fe4-6e5eeae22ca4",
+      "GameCode": null,
+      "CarChoice": null
+    }
+  ],
+  "UseBuiltInProfiles": false
+}

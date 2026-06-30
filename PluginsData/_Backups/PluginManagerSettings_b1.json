@@ -1,0 +1,153 @@
+{
+  "EventMessageSettings": {},
+  "EventActionMapping": [
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor1s_RPMStartChanged",
+      "Trigger": "SerialDashPlugin.RPMStartOffsetChanged"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor1s_BlinkingLevelChanged",
+      "Trigger": "SerialDashPlugin.BlinkTriggerRatioChanged"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor1s_DisplayIntensityChanged",
+      "Trigger": "SerialDashPlugin.DisplayIntensityChanged"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor1s_GameVolumeChanged",
+      "Trigger": "DataCorePlugin.GameVolumeChanged"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor3s_LowFuelAlert",
+      "Trigger": "SerialDashPlugin.LowFuelLapAlert"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor3s_NewLapDelta",
+      "Trigger": "DataCorePlugin.NewValidLap"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor3s_NewLapLastTime",
+      "Trigger": "DataCorePlugin.NewValidLap"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor1s_NewAllTimeBestLap",
+      "Trigger": "PersistantTrackerPlugin.NewAllTimeBest"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor3s_WelcomeScreen",
+      "Trigger": "DataCorePlugin.GameStarted"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "SerialDashPlugin.DisplayScreenFor3s_NewSessionBestLap",
+      "Trigger": "DataCorePlugin.NewSessionBest"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "NextionTemplateParser.nextion1_DisplayScreenFor1s_gamevolumechanged",
+      "Trigger": "DataCorePlugin.GameVolumeChanged"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "NextionTemplateParser.nextion1_DisplayScreenFor1s_sessionstarted",
+      "Trigger": "DataCorePlugin.GameStarted"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "NextionTemplateParser.nextion1_DisplayScreenFor1s_rpmalerttriggerchanged",
+      "Trigger": "SerialDashPlugin.BlinkTriggerRatioChanged"
+    },
+    {
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Target": "NextionTemplateParser.nextion1_DisplayScreenFor3s_newlap",
+      "Trigger": "DataCorePlugin.NewValidLap"
+    }
+  ],
+  "InputActionMapping": [
+    {
+      "Target": "SerialDashPlugin.DecrementDisplayIntensity",
+      "PressType": 1,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Trigger": "SerialDashPlugin.SCREEN1_BUTTON7"
+    },
+    {
+      "Target": "SerialDashPlugin.IncrementDisplayIntensity",
+      "PressType": 1,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Trigger": "SerialDashPlugin.SCREEN1_BUTTON8"
+    },
+    {
+      "Target": "SerialDashPlugin.PreviousScreen",
+      "PressType": 1,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Trigger": "SerialDashPlugin.SCREEN1_BUTTON1"
+    },
+    {
+      "Target": "SerialDashPlugin.NextScreen",
+      "PressType": 1,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Trigger": "SerialDashPlugin.SCREEN1_BUTTON2"
+    },
+    {
+      "Target": "SerialDashPlugin.GoToFirstScreen",
+      "PressType": 2,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Trigger": "SerialDashPlugin.SCREEN1_BUTTON1"
+    },
+    {
+      "Target": "SerialDashPlugin.DisplayScreenFor1s_TimeScreen",
+      "PressType": 1,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "Trigger": "SerialDashPlugin.SCREEN1_BUTTON4"
+    }
+  ]
+}

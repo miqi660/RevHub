@@ -1,0 +1,74 @@
+{
+  "SimHub.Plugins.OutputPlugins.GraphicalDash.DashboardEditorDock": {
+    "placement": {
+      "length": 44,
+      "flags": 0,
+      "showCmd": 1,
+      "minPosition": {
+        "X": -1,
+        "Y": -1
+      },
+      "maxPosition": {
+        "X": -1,
+        "Y": -1
+      },
+      "normalPosition": {
+        "Left": 432,
+        "Top": 128,
+        "Right": 2352,
+        "Bottom": 1245
+      }
+    },
+    "IsFakeMaximized": false,
+    "oldPlacement": null,
+    "CustomSettings": {}
+  },
+  "SimHubWPF.MainWindow": {
+    "placement": {
+      "length": 44,
+      "flags": 0,
+      "showCmd": 1,
+      "minPosition": {
+        "X": -32000,
+        "Y": -32000
+      },
+      "maxPosition": {
+        "X": -1,
+        "Y": -1
+      },
+      "normalPosition": {
+        "Left": -249,
+        "Top": 179,
+        "Right": 2151,
+        "Bottom": 1679
+      }
+    },
+    "IsFakeMaximized": false,
+    "oldPlacement": null,
+    "CustomSettings": {}
+  },
+  "SimHub.Plugins.OutputPlugins.GraphicalDash.OverlayLayoutControlWindow": {
+    "placement": {
+      "length": 44,
+      "flags": 0,
+      "showCmd": 1,
+      "minPosition": {
+        "X": -32000,
+        "Y": -32000
+      },
+      "maxPosition": {
+        "X": -1,
+        "Y": -1
+      },
+      "normalPosition": {
+        "Left": 401,
+        "Top": 273,
+        "Right": 1106,
+        "Bottom": 1312
+      }
+    },
+    "IsFakeMaximized": false,
+    "oldPlacement": null,
+    "CustomSettings": {}
+  }
+}

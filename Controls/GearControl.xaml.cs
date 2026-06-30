@@ -1,7 +1,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace ForzaUDPReader.WPF.Controls
+namespace RevHub.Controls
 {
     /// <summary>
     /// 档位显示 — 纯 XAML + 依赖属性绑定

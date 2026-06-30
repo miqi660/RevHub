@@ -3,18 +3,24 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Animation;
 using System.Windows.Threading;
-using ForzaUDPReader.WPF.Data;
+using RevHub.Core.Models;
+using RevHub.Core.Parsers;
+using RevHub.Data;
+using RevHub.Data.Parsers;
+using RevHub.Models;
 
-namespace ForzaUDPReader.WPF
+namespace RevHub
 {
     public partial class MainWindow : Window
     {
         private UdpReceiver _receiver;
+        private AcSharedMemoryParser _acParser;
+        private AccSharedMemoryParser _accParser;
+        private Ets2SharedMemoryParser _ets2Parser;
         private ForzaTelemetryData _currentData;
         private bool _hasReceivedData;
         private readonly object _dataLock = new object();
         private DispatcherTimer _refreshTimer;
-
         // ═══════════════════════════════════════════════════════════
         // 图表列抽屉式动画 — 字段与常量
         // ═══════════════════════════════════════════════════════════
@@ -51,6 +57,52 @@ namespace ForzaUDPReader.WPF
             Loaded += OnWindowLoaded;
             // 用户手动拖拽缩放时，中止正在进行的动画，防止动画与用户操作冲突
             SizeChanged += OnWindowSizeChanged;
+        }
+
+        /// <summary>
+        /// 从启动器启动时使用的构造函数
+        /// </summary>
+        /// <param name="gameConfig">游戏配置</param>
+        /// <param name="settings">应用设置</param>
+        public MainWindow(GameConfig gameConfig, AppSettings settings) : this()
+        {
+            // 应用启动器传入的设置
+            this.Opacity = settings.WindowOpacity;
+            Chart.Visibility = settings.ShowChart ? Visibility.Visible : Visibility.Collapsed;
+            Pedals.IsHandbrakeMode = settings.PedalMode == "Handbrake";
+            Steering.SingleSideTurns = settings.SteeringTurns;
+
+            // 根据游戏类型选择接收器
+            if (gameConfig.GameId == "assetto-corsa")
+            {
+                _acParser = new AcSharedMemoryParser();
+                _acParser.DataUpdated += OnSharedMemoryDataUpdated;
+                _acParser.Start();
+            }
+            else if (gameConfig.GameId == "assetto-corsa-competizione")
+            {
+                _accParser = new AccSharedMemoryParser();
+                _accParser.DataUpdated += OnSharedMemoryDataUpdated;
+                _accParser.Start();
+            }
+            else if (gameConfig.GameId == "euro-truck-simulator-2")
+            {
+                _ets2Parser = new Ets2SharedMemoryParser();
+                _ets2Parser.DataUpdated += OnSharedMemoryDataUpdated;
+                _ets2Parser.Start();
+            }
+            else
+            {
+                // 其他游戏使用 UDP
+                _receiver?.Dispose();
+                var parser = new ForzaParser();
+                _receiver = new UdpReceiver(gameConfig.UdpPort, parser);
+                _receiver.DataReceived += OnDataReceived;
+                _receiver.ErrorOccurred += OnErrorOccurred;
+                _receiver.Start();
+            }
+
+            Title = $"{gameConfig.GameName} - Telemetry HUD";
         }
 
         #region 窗口交互
@@ -296,6 +348,57 @@ namespace ForzaUDPReader.WPF
             Chart.AddDataPoint(data.ThrottlePercent, data.BrakePercent, data.ClutchPercent, data.HandbrakePercent);
         }
 
+        /// <summary>
+        /// 共享内存游戏数据更新（AC / ACC / ETS2 通用）
+        /// 将 BasicTelemetryData 转换为 ForzaTelemetryData 格式
+        /// </summary>
+        private void OnSharedMemoryDataUpdated(object sender, BasicTelemetryData data)
+        {
+            // 统一档位映射 → Forza 格式 (0=R, 11=N, 1-16=前进)
+            byte gear;
+            if (data.Gear < 0) gear = 0;        // R (ACC/ETS2: -1)
+            else if (data.Gear == 0) gear = 11;  // N (AC: 1, ACC/ETS2: 0 均映射)
+            else if (data.Gear == 1) gear = 11;  // N (AC 特殊: 1=N)
+            else gear = (byte)(data.Gear - 1);   // AC: 2→1, 3→2, ...; ACC/ETS2: 2→1 巧合
+
+            // ACC/ETS2 档位已经是 -1=R, 0=N, 1+=前进，需要单独处理
+            // 通过 GameId 区分
+            if (sender is AcSharedMemoryParser)
+            {
+                // AC: 0=R, 1=N, 2=1档 → Forza: 0=R, 11=N, 1=1档
+                if (data.Gear == 0) gear = 0;
+                else if (data.Gear == 1) gear = 11;
+                else gear = (byte)(data.Gear - 1);
+            }
+            else
+            {
+                // ACC/ETS2: -1=R, 0=N, 1+=前进 → Forza: 0=R, 11=N, 1+=前进
+                if (data.Gear < 0) gear = 0;
+                else if (data.Gear == 0) gear = 11;
+                else gear = (byte)data.Gear;
+            }
+
+            var forzaData = new ForzaTelemetryData
+            {
+                CurrentEngineRpm = data.Rpm,
+                EngineMaxRpm = data.MaxRpm,
+                Speed = data.Speed,
+                Gear = gear,
+                Accelerator = (byte)(data.Throttle / 100f * 255f),
+                Brake = (byte)(data.Brake / 100f * 255f),
+                Clutch = (byte)(data.Clutch / 100f * 255f),
+                Steer = (sbyte)(data.Steer / 100f * 127f)
+            };
+
+            lock (_dataLock)
+            {
+                _currentData = forzaData;
+                _hasReceivedData = true;
+            }
+
+            Chart.AddDataPoint(forzaData.ThrottlePercent, forzaData.BrakePercent, forzaData.ClutchPercent, forzaData.HandbrakePercent);
+        }
+
         private void OnErrorOccurred(object sender, Exception ex)
         {
             Console.WriteLine($"UDP Error: {ex.Message}");
@@ -309,6 +412,9 @@ namespace ForzaUDPReader.WPF
             SizeChanged -= OnWindowSizeChanged;
             _refreshTimer?.Stop();
             _receiver?.Dispose();
+            _acParser?.Dispose();
+            _accParser?.Dispose();
+            _ets2Parser?.Dispose();
             base.OnClosed(e);
         }
 

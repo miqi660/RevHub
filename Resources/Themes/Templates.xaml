@@ -1,0 +1,77 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:RevHub.ViewModels">
+
+    <!-- ═══ 游戏列表项模板 ═══ -->
+    <DataTemplate x:Key="GameCardItemTemplate" DataType="vm:GameCardViewModel">
+        <Border x:Name="itemBorder"
+                Background="Transparent"
+                CornerRadius="8"
+                Padding="14,12"
+                Margin="8,3">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- 游戏图标占位符 -->
+                <Border Grid.Column="0"
+                        Width="36" Height="36"
+                        CornerRadius="8"
+                        Background="{StaticResource AccentBlueColor}">
+                    <TextBlock Text="🏎"
+                               FontSize="18"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Border>
+
+                <!-- 游戏名称 + 传输方式 -->
+                <StackPanel Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center">
+                    <TextBlock Text="{Binding GameName}"
+                               Foreground="{StaticResource FgPrimaryColor}"
+                               FontSize="13"
+                               FontWeight="SemiBold"/>
+                    <TextBlock Margin="0,3,0,0"
+                               Foreground="{StaticResource FgMutedColor}"
+                               FontSize="11"
+                               Text="{Binding TransportTypeDisplay}"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <DataTemplate.Triggers>
+            <!-- 悬停效果 -->
+            <DataTrigger Binding="{Binding IsMouseOver, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
+                <Setter TargetName="itemBorder" Property="Background" Value="{StaticResource BgHoverColor}"/>
+            </DataTrigger>
+            <!-- 选中效果 -->
+            <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}" Value="True">
+                <Setter TargetName="itemBorder" Property="Background" Value="{StaticResource BgCardColor}"/>
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+
+    <!-- ═══ ListBox 样式（游戏列表） ═══ -->
+    <Style x:Key="GameListBoxStyle" TargetType="ListBox">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Padding" Value="0,8"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+        <Setter Property="ItemTemplate" Value="{StaticResource GameCardItemTemplate}"/>
+    </Style>
+
+    <!-- ═══ ListBoxItem 样式（游戏列表项） ═══ -->
+    <Style x:Key="GameListBoxItemStyle" TargetType="ListBoxItem">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListBoxItem">
+                    <ContentPresenter/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

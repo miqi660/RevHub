@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Windows.Data;
 
-namespace ForzaUDPReader.WPF.Converters
+namespace RevHub.Converters
 {
     /// <summary>
     /// 单边圈数 → 角度显示文本（如 "±180°"）

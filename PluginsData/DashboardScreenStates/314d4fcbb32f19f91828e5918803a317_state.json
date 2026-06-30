@@ -1,0 +1,21 @@
+{
+  "States": {
+    "QuickRun": {
+      "LastIdleScreen": {
+        "ScreenId": null
+      },
+      "LastIndeterminateScreen": {
+        "ScreenId": "57e3fed4-6a7a-4714-abbc-b4075c177050"
+      },
+      "LastIngameScreen": {
+        "ScreenId": null
+      },
+      "LastPitScreen": {
+        "ScreenId": null
+      },
+      "LastSelectedScreen": {
+        "ScreenId": "57e3fed4-6a7a-4714-abbc-b4075c177050"
+      }
+    }
+  }
+}

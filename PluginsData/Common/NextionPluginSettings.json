@@ -1,0 +1,74 @@
+{
+  "Displays": [
+    {
+      "MissingMapping": false,
+      "IsEnabled": false,
+      "Index": 1,
+      "ComPort": "COM10",
+      "DebugMode": false,
+      "TemplateName": "DASH_4.3",
+      "MappingName": "DASH_UNIVERSAL",
+      "Delay": 20,
+      "RGBLeds": 0,
+      "RGBLedsStart": 0,
+      "ControlsDebouncing": 0,
+      "PowerOffScreenWhenNotInGame": false
+    },
+    {
+      "MissingMapping": false,
+      "IsEnabled": false,
+      "Index": 2,
+      "ComPort": null,
+      "DebugMode": false,
+      "TemplateName": null,
+      "MappingName": null,
+      "Delay": 50,
+      "RGBLeds": 0,
+      "RGBLedsStart": 0,
+      "ControlsDebouncing": 0,
+      "PowerOffScreenWhenNotInGame": false
+    },
+    {
+      "MissingMapping": false,
+      "IsEnabled": false,
+      "Index": 3,
+      "ComPort": null,
+      "DebugMode": false,
+      "TemplateName": null,
+      "MappingName": null,
+      "Delay": 50,
+      "RGBLeds": 0,
+      "RGBLedsStart": 0,
+      "ControlsDebouncing": 0,
+      "PowerOffScreenWhenNotInGame": false
+    },
+    {
+      "MissingMapping": false,
+      "IsEnabled": false,
+      "Index": 4,
+      "ComPort": null,
+      "DebugMode": false,
+      "TemplateName": null,
+      "MappingName": null,
+      "Delay": 50,
+      "RGBLeds": 0,
+      "RGBLedsStart": 0,
+      "ControlsDebouncing": 0,
+      "PowerOffScreenWhenNotInGame": false
+    },
+    {
+      "MissingMapping": false,
+      "IsEnabled": false,
+      "Index": 5,
+      "ComPort": null,
+      "DebugMode": false,
+      "TemplateName": null,
+      "MappingName": null,
+      "Delay": 50,
+      "RGBLeds": 0,
+      "RGBLedsStart": 0,
+      "ControlsDebouncing": 0,
+      "PowerOffScreenWhenNotInGame": false
+    }
+  ]
+}

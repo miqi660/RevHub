@@ -1,0 +1,22 @@
+{
+  "Devices": {
+    "Enabled": true,
+    "Order": 0,
+    "Expanded": false
+  },
+  "Feedback": {
+    "Enabled": true,
+    "Order": 2,
+    "Expanded": false
+  },
+  "FavoriteGames": {
+    "Enabled": true,
+    "Order": 3,
+    "Expanded": false
+  },
+  "Motion": {
+    "Enabled": true,
+    "Order": 1,
+    "Expanded": true
+  }
+}

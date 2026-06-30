@@ -1,0 +1,428 @@
+<Window x:Class="RevHub.Views.LauncherWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:conv="clr-namespace:RevHub.Converters"
+        Title="RevHub - Dashboard"
+        Width="920" Height="620"
+        MinWidth="780" MinHeight="520"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        FontFamily="{StaticResource ForzaFont}"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ResizeMode="CanResizeWithGrip">
+
+    <Border Background="{StaticResource BgDarkColor}"
+            CornerRadius="8"
+            BorderBrush="{StaticResource BorderColor}"
+            BorderThickness="1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36"/>   <!-- 标题栏 -->
+            <RowDefinition Height="*"/>    <!-- 主内容 -->
+            <RowDefinition Height="30"/>   <!-- 状态栏 -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240"/>  <!-- 侧边栏 -->
+            <ColumnDefinition Width="*"/>    <!-- 右侧内容 -->
+        </Grid.ColumnDefinitions>
+
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <!-- 标题栏（跨两列） -->
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <Border Grid.Row="0" Grid.ColumnSpan="2"
+                Background="{StaticResource BgMediumColor}"
+                MouseLeftButtonDown="OnTitleBarMouseLeftButtonDown">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- 应用标题 -->
+                <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="16,0">
+                    <TextBlock Text="🏎"
+                               FontSize="16"
+                               VerticalAlignment="Center"
+                               Margin="0,0,10,0"/>
+                    <TextBlock Text="RevHub"
+                               Foreground="{StaticResource FgPrimaryColor}"
+                               FontSize="13"
+                               FontWeight="SemiBold"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Text="Dashboard"
+                               Foreground="{StaticResource FgMutedColor}"
+                               FontSize="13"
+                               VerticalAlignment="Center"
+                               Margin="8,0,0,0"/>
+                </StackPanel>
+
+                <!-- 窗口控制按钮 -->
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <Button Style="{StaticResource TitleBarButtonStyle}"
+                            Content="─"
+                            Click="OnMinimizeClick"/>
+                    <Button Style="{StaticResource CloseButtonStyle}"
+                            Content="✕"
+                            Click="OnCloseClick"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <!-- 左侧边栏：游戏列表 -->
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <Border Grid.Row="1" Grid.Column="0"
+                Background="{StaticResource BgMediumColor}"
+                BorderBrush="{StaticResource BorderLightColor}"
+                BorderThickness="0,0,1,0">
+            <DockPanel>
+                <!-- 侧边栏标题 -->
+                <TextBlock DockPanel.Dock="Top"
+                           Text="游戏列表"
+                           Style="{StaticResource SectionHeaderStyle}"
+                           Margin="16,16,16,8"/>
+
+                <!-- 游戏列表 -->
+                <ListBox Style="{StaticResource GameListBoxStyle}"
+                         ItemsSource="{Binding Games}"
+                         SelectedItem="{Binding SelectedGame}"
+                         ItemContainerStyle="{StaticResource GameListBoxItemStyle}"/>
+            </DockPanel>
+        </Border>
+
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <!-- 右侧主内容区 -->
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <ScrollViewer Grid.Row="1" Grid.Column="1"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+            <StackPanel Margin="24,20">
+
+                <!-- ── 游戏详情卡片 ── -->
+                <Border Background="{StaticResource BgCardColor}"
+                        CornerRadius="10"
+                        Padding="20,16"
+                        Margin="0,0,0,20">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="56"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- 游戏图标 -->
+                        <Border Grid.Column="0"
+                                Width="52" Height="52"
+                                CornerRadius="10"
+                                Background="{StaticResource AccentBlueColor}">
+                            <TextBlock Text="{Binding SelectedGame.GameIcon, FallbackValue='🎮'}"
+                                       FontSize="26"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"/>
+                        </Border>
+
+                        <!-- 游戏信息 -->
+                        <StackPanel Grid.Column="1" Margin="16,0,0,0" VerticalAlignment="Center">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding SelectedGame.GameName, FallbackValue='未选择游戏'}"
+                                           Foreground="{StaticResource FgPrimaryColor}"
+                                           FontSize="18"
+                                           FontWeight="Bold"/>
+                                <Border Background="{StaticResource AccentBlueColor}"
+                                        CornerRadius="4"
+                                        Padding="8,2"
+                                        Margin="12,0,0,0"
+                                        VerticalAlignment="Center">
+                                    <TextBlock Text="{Binding SelectedGame.TransportTypeDisplay}"
+                                               Foreground="White"
+                                               FontSize="10"/>
+                                </Border>
+                            </StackPanel>
+                            <TextBlock Text="{Binding SelectedGame.Description, FallbackValue='请从左侧列表选择一个游戏'}"
+                                       Foreground="{StaticResource FgMutedColor}"
+                                       FontSize="12"
+                                       Margin="0,6,0,0"
+                                       TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <!-- ── 连接配置面板 ── -->
+                <Border Background="{StaticResource BgCardColor}"
+                        CornerRadius="10"
+                        Padding="20,16"
+                        Margin="0,0,0,20"
+                        Visibility="{Binding SelectedGame.IsSharedMemory, Converter={StaticResource InverseBoolToVisibilityConverter}}">
+                    <StackPanel>
+                        <TextBlock Text="UDP 配置"
+                                   Style="{StaticResource SectionHeaderStyle}"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" MinWidth="80"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" MinWidth="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="12"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- 端口号 -->
+                            <TextBlock Grid.Row="0" Grid.Column="0"
+                                       Text="监听端口"
+                                       Style="{StaticResource LabelStyle}"
+                                       Margin="0,0,12,0"/>
+                            <TextBox Grid.Row="0" Grid.Column="1"
+                                     Style="{StaticResource InputStyle}"
+                                     Text="{Binding Settings.UdpPort, UpdateSourceTrigger=PropertyChanged}"/>
+
+                            <!-- 数据包大小 -->
+                            <TextBlock Grid.Row="0" Grid.Column="2"
+                                       Text="数据包大小"
+                                       Style="{StaticResource LabelStyle}"
+                                       Margin="16,0,12,0"/>
+                            <TextBox Grid.Row="0" Grid.Column="3"
+                                     Style="{StaticResource InputStyle}"
+                                     Text="{Binding Settings.PacketSize, UpdateSourceTrigger=PropertyChanged}"
+                                     IsReadOnly="True"
+                                     Opacity="0.6"/>
+
+                            <!-- 测试连接按钮 -->
+                            <Button Grid.Row="2" Grid.ColumnSpan="4"
+                                    Content="{Binding IsTesting, Converter={StaticResource TestButtonContentConverter}}"
+                                    Style="{StaticResource SecondaryButtonStyle}"
+                                    Command="{Binding TestConnectionCommand}"
+                                    IsEnabled="{Binding IsTesting, Converter={StaticResource InverseBoolConverter}}"
+                                    HorizontalAlignment="Left"
+                                    Padding="16,8"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- ── 共享内存配置面板 ── -->
+                <Border Background="{StaticResource BgCardColor}"
+                        CornerRadius="10"
+                        Padding="20,16"
+                        Margin="0,0,0,20"
+                        Visibility="{Binding SelectedGame.IsSharedMemory, Converter={StaticResource BoolToVisibilityConverter}}">
+                    <StackPanel>
+                        <TextBlock Text="共享内存配置"
+                                   Style="{StaticResource SectionHeaderStyle}"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" MinWidth="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="12"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- 传输类型 -->
+                            <TextBlock Grid.Row="0" Grid.Column="0"
+                                       Text="传输方式"
+                                       Style="{StaticResource LabelStyle}"
+                                       Margin="0,0,12,0"/>
+                            <TextBlock Grid.Row="0" Grid.Column="1"
+                                       Text="共享内存 (无需端口配置)"
+                                       Foreground="{StaticResource FgPrimaryColor}"
+                                       FontSize="12"/>
+
+                            <!-- 测试连接按钮 -->
+                            <Button Grid.Row="2" Grid.ColumnSpan="2"
+                                    Content="{Binding IsTesting, Converter={StaticResource TestButtonContentConverter}}"
+                                    Style="{StaticResource SecondaryButtonStyle}"
+                                    Command="{Binding TestConnectionCommand}"
+                                    IsEnabled="{Binding IsTesting, Converter={StaticResource InverseBoolConverter}}"
+                                    HorizontalAlignment="Left"
+                                    Padding="16,8"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- ── 使用说明面板 ── -->
+                <Border Background="{StaticResource BgCardColor}"
+                        CornerRadius="10"
+                        Padding="20,16"
+                        Margin="0,0,0,20"
+                        Visibility="{Binding SelectedGame.HasSetupInstructions, Converter={StaticResource BoolToVisibilityConverter}}">
+                    <StackPanel>
+                        <TextBlock Text="使用说明"
+                                   Style="{StaticResource SectionHeaderStyle}"/>
+                        <TextBlock Text="{Binding SelectedGame.SetupInstructions}"
+                                   Foreground="{StaticResource FgSecondaryColor}"
+                                   FontSize="12"
+                                   TextWrapping="Wrap"
+                                   LineHeight="20"
+                                   Margin="0,0,0,12"/>
+                        <Button Content="打开插件文件夹"
+                                Style="{StaticResource SecondaryButtonStyle}"
+                                Command="{Binding SelectedGame.OpenPluginFolderCommand}"
+                                Visibility="{Binding SelectedGame.HasPluginFile, Converter={StaticResource BoolToVisibilityConverter}}"
+                                HorizontalAlignment="Left"
+                                Padding="16,8"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- ── HUD 设置面板 ── -->
+                <Border Background="{StaticResource BgCardColor}"
+                        CornerRadius="10"
+                        Padding="20,16"
+                        Margin="0,0,0,20">
+                    <StackPanel>
+                        <TextBlock Text="HUD 设置"
+                                   Style="{StaticResource SectionHeaderStyle}"/>
+
+                        <!-- 透明度 -->
+                        <Grid Margin="0,0,0,14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" MinWidth="80"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                       Text="透明度"
+                                       Style="{StaticResource LabelStyle}"
+                                       Margin="0,0,12,0"/>
+                            <Slider Grid.Column="1"
+                                    Minimum="0.2" Maximum="1.0"
+                                    Value="{Binding Settings.WindowOpacity}"
+                                    TickFrequency="0.1"
+                                    IsSnapToTickEnabled="True"/>
+                            <TextBlock Grid.Column="2"
+                                       Text="{Binding Settings.WindowOpacity, StringFormat={}{0:P0}}"
+                                       Style="{StaticResource LabelStyle}"
+                                       Margin="12,0,0,0"
+                                       MinWidth="36"/>
+                        </Grid>
+
+                        <!-- 显示图表 -->
+                        <CheckBox Margin="0,0,0,14"
+                                  IsChecked="{Binding Settings.ShowChart}"
+                                  Foreground="{StaticResource FgSecondaryColor}"
+                                  FontSize="12">
+                            <CheckBox.Content>
+                                <TextBlock Text="显示开度曲线图表" Style="{StaticResource LabelStyle}"/>
+                            </CheckBox.Content>
+                        </CheckBox>
+
+                        <!-- 踏板模式 -->
+                        <Grid Margin="0,0,0,14">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" MinWidth="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                       Text="踏板模式"
+                                       Style="{StaticResource LabelStyle}"
+                                       Margin="0,0,12,0"/>
+                            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                <RadioButton Content="离合器"
+                                             GroupName="PedalMode"
+                                             IsChecked="{Binding Settings.PedalMode, Converter={StaticResource PedalModeConverter}, ConverterParameter=Clutch}"
+                                             Foreground="{StaticResource FgSecondaryColor}"
+                                             FontSize="12"
+                                             Margin="0,0,20,0"/>
+                                <RadioButton Content="手刹"
+                                             GroupName="PedalMode"
+                                             IsChecked="{Binding Settings.PedalMode, Converter={StaticResource PedalModeConverter}, ConverterParameter=Handbrake}"
+                                             Foreground="{StaticResource FgSecondaryColor}"
+                                             FontSize="12"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <!-- 方向盘圈数 -->
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" MinWidth="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                       Text="方向盘圈数"
+                                       Style="{StaticResource LabelStyle}"
+                                       Margin="0,0,12,0"/>
+                            <TextBox Grid.Column="1"
+                                     Style="{StaticResource InputStyle}"
+                                     MaxWidth="120"
+                                     HorizontalAlignment="Left">
+                                <TextBox.Text>
+                                    <Binding Path="Settings.SteeringTurns"
+                                             UpdateSourceTrigger="PropertyChanged"
+                                             StringFormat="F2">
+                                        <Binding.ValidationRules>
+                                            <conv:DoubleRangeValidationRule Min="0.01" Max="255"/>
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </TextBox.Text>
+                            </TextBox>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- ── 操作按钮 ── -->
+                <Grid Margin="0,0,0,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="1"
+                            Content="启动 HUD"
+                            Style="{StaticResource LauncherButtonStyle}"
+                            Command="{Binding LaunchHudCommand}"
+                            Padding="32,12"
+                            FontSize="14"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <!-- 状态栏（跨两列） -->
+        <!-- ═══════════════════════════════════════════════════════════ -->
+        <Border Grid.Row="2" Grid.ColumnSpan="2"
+                Background="{StaticResource BgMediumColor}"
+                BorderBrush="{StaticResource BorderLightColor}"
+                BorderThickness="0,1,0,0">
+            <Grid Margin="16,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- 连接状态 -->
+                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <Ellipse Width="8" Height="8"
+                             Fill="{StaticResource StatusDisconnectedColor}"
+                             Margin="0,0,8,0"
+                             VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding ConnectionStateText}"
+                               Foreground="{StaticResource FgMutedColor}"
+                               FontSize="11"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <!-- 状态文本 -->
+                <TextBlock Grid.Column="1"
+                           Text="{Binding StatusText}"
+                           Foreground="{StaticResource FgMutedColor}"
+                           FontSize="11"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+
+                <!-- 版本信息 -->
+                <TextBlock Grid.Column="2"
+                           Text="v1.0.0"
+                           Foreground="{StaticResource FgMutedColor}"
+                           FontSize="11"
+                           VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+    </Grid>
+    </Border>
+</Window>

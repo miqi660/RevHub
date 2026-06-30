@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace ForzaUDPReader.WPF.Data
+namespace RevHub.Data
 {
     /// <summary>
     /// Forza Horizon 6 UDP 遥测数据结构

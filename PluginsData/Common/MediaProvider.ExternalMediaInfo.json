@@ -1,0 +1,5 @@
+{
+  "MetadataFile": "C:\\songify\\Songify.txt",
+  "CoverFile": "C:\\songify\\cover.png",
+  "MatadataPattern": "#artist# - #title#"
+}

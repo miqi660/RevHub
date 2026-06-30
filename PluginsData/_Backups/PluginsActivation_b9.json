@@ -1,0 +1,140 @@
+[
+  {
+    "ClassName": "SimHub.Plugins.SimuLight.SimuLightPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.OutputPlugins.Dash.SerialDashPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.AudioControl.AudioControlPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.OutputPlugins.BeltTensionner.BeltTensionnerPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.OutputPlugins.ControlRemapper.ControlMapperPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.InputPlugins.JoystickPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.OutputPlugins.SerialComm.CustomSerialPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.OutputPlugins.GraphicalDash.GraphicalDashPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.Devices.DevicesPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.Logitech.HeadsetInfo",
+    "IsEnabled": false,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.KeyboardEmulator.KeyboardEmulatorPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.InputPlugins.KeyboardReaderPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.InputPlugins.MIDI.MidiPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.Motion.MotionPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.OutputPlugins.Nextion.NextionPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "benofficial2.Plugin.benofficial2",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.SerialPortMonitor.SerialPortMonitorPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITBSV3Plugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.ShakeItV3.ShakeITMotorsV3Plugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.ShakeItWind.ShakeItWindPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.PersistantTracker.LapHitoryPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.Thrustmaster.ThrustmastersPlugin",
+    "IsEnabled": false,
+    "ShowInMainMenu": false,
+    "ShowInMainMenuPosition": 0
+  },
+  {
+    "ClassName": "SimHub.Plugins.DataPlugins.UDPRelay.UDPRelayPlugin",
+    "IsEnabled": true,
+    "ShowInMainMenu": true,
+    "ShowInMainMenuPosition": 0
+  }
+]

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Media;
 
-namespace ForzaUDPReader.WPF.Controls
+namespace RevHub.Controls
 {
     /// <summary>
     /// 折线图轨迹线区 — 纯自绘 (OnRender)

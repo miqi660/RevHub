@@ -1,0 +1,9 @@
+{
+  "SaveOnRun": false,
+  "UnlockAllScreens": true,
+  "StartActiveEditorScreen": true,
+  "UseEditorChildWindow": true,
+  "TopToBottomLayers": true,
+  "ResetLayout": false,
+  "AlwaysHidePerformanceTip": false
+}

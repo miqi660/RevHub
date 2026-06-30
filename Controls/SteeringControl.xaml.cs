@@ -2,7 +2,7 @@ using System;
 using System.Windows;
 using System.Windows.Media;
 
-namespace ForzaUDPReader.WPF.Controls
+namespace RevHub.Controls
 {
     /// <summary>
     /// 方向盘矢量绘制与旋转区 — 纯自绘 (OnRender)

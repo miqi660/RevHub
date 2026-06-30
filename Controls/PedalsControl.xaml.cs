@@ -2,7 +2,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace ForzaUDPReader.WPF.Controls
+namespace RevHub.Controls
 {
     public partial class PedalsControl : UserControl
     {

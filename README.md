@@ -1,4 +1,4 @@
-# ForzaUDPReader.WPF
+# RevHub
 
 基于 WPF (.NET 8.0) 的 Forza Horizon 6 实时遥测 HUD 覆盖层。通过 UDP 端口 21337 接收游戏遥测数据，以 60 FPS 刷新率驱动六个可视化控件，呈现赛车仪表盘级的实时数据。
 
@@ -56,7 +56,7 @@ dotnet publish -c Release
 
 1. 启动 Forza Horizon 6
 2. 在游戏设置中开启 UDP 数据输出（端口 21337）
-3. 运行 ForzaUDPReader.WPF
+3. 运行 RevHub
 4. HUD 自动接收并显示遥测数据
 
 **界面操作：**
@@ -68,7 +68,7 @@ dotnet publish -c Release
 ## 项目结构
 
 ```
-ForzaUDPReader.WPF/
+RevHub/
 ├── App.xaml / .cs                      # 应用入口，注册全局字体资源
 ├── MainWindow.xaml / .cs               # 主窗口：UdpReceiver + 60FPS Timer + 控件调度
 ├── Controls/
@@ -86,7 +86,7 @@ ForzaUDPReader.WPF/
 ├── Fonts/
 │   └── sui-generis-free.ttf            # 自定义 HUD 字体
 ├── CLAUDE.md                           # Claude Code 项目指引
-└── ForzaUDPReader.WPF.csproj           # 项目文件
+└── RevHub.csproj           # 项目文件
 ```
 
 ## 架构

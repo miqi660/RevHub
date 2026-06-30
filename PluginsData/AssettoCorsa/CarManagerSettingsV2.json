@@ -1,0 +1,17 @@
+{
+  "LoadKnownDefaultCarSettings": true,
+  "RedlineChangeStepPercent": 1.0,
+  "RedlineChangeStepRPM": 200.0,
+  "LowfuelChangeStepLaps": 0.2,
+  "SyncPerGearRedlineFromGameWhenPossible": true,
+  "DetectABSWhenMissing": true,
+  "DetectTCWhenMissing": true,
+  "PercentOfGameReportedRedline": 100.0,
+  "RedLinePercent": 95.0,
+  "ShiftLight1": 10.0,
+  "ShiftLight2": 10.0,
+  "MinimumDisplayedRPMPercent": 0.0,
+  "EnableLowFuelAlert": true,
+  "LowFuelLapsLevel": 1.2,
+  "RepeatLowFuelAlertEvery": 20
+}

@@ -1,0 +1,3032 @@
+{
+  "UseRGBLedsEditorEx2": true,
+  "AllowOldEditor": false,
+  "FuelGaugeSettings": {
+    "MaxValue": 100.0,
+    "MaxValueOutput": 0.0,
+    "MinValue": 0.0,
+    "MinValueOutput": 255.0
+  },
+  "TempGaugeSettings": {
+    "MaxValue": 120.0,
+    "MaxValueOutput": 0.0,
+    "MinValue": 40.0,
+    "MinValueOutput": 255.0
+  },
+  "ConsGaugeSettings": {
+    "MaxValue": 40.0,
+    "MaxValueOutput": 255.0,
+    "MinValue": 0.0,
+    "MinValueOutput": 0.0
+  },
+  "AnnounceTime": 0.5,
+  "BoostMaxValue": 1.8,
+  "BoostMaxValueOutput": 255.0,
+  "BoostMinValue": -0.9,
+  "BoostMinValueOutput": 0.0,
+  "BoostUseFullRange": false,
+  "BoostZeroOutput": 128.0,
+  "SpeedoMaxValue": 290.0,
+  "SpeedoMaxValueOutput": 367.0,
+  "SpeedoMinValue": 10.0,
+  "SpeedoMinValueOutput": 34.0,
+  "DisableSpeedoOutputWhenUnderMinimum": true,
+  "currentScreenIndex": 0,
+  "CustomFont": "custommatrixfont8x8",
+  "MatrixRedlineBlink": true,
+  "DashEnableACQPacket": true,
+  "DashReadButtons": true,
+  "DashSerialSpeed": 11,
+  "DeviceEnabled": false,
+  "ScanMode": 0,
+  "WhiteList": [],
+  "BlackList": [],
+  "LCDRefreshSpeed": 1,
+  "LowFuelLapsAlertInterval": 20,
+  "LowFuelLapsLevel": 2.0,
+  "MatrixIntensity": 7,
+  "MatrixRotations": 3,
+  "RGBMatrixRotations": 0,
+  "RGBMatrixLowRPMColor": "#FF0000FF",
+  "RGBMatrixHighRPMColor": "#FFFF0000",
+  "RGBMatrixBrightness": 50,
+  "ModuleLogicalMap": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "ModuleSettings": {
+    "MainIntensity": 7,
+    "Settings": [
+      {
+        "Luminosity": 7,
+        "Number": 1,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 2,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 3,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 4,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 5,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 6,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 7,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 8,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 9,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 10,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 11,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 12,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 13,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 14,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 15,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 16,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 17,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 18,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 19,
+        "Reverse": false
+      },
+      {
+        "Luminosity": 7,
+        "Number": 20,
+        "Reverse": false
+      }
+    ]
+  },
+  "MultipleUsbEnabled": false,
+  "ReversedScreens": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "RGBIntensity": 100,
+  "GearIndicatorBlinkingEnabled": true,
+  "RGBLedsLayouts": [
+    {
+      "Name": "DEFAULT",
+      "Mappings": [
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "Rpms",
+          "StartLedNumber": 1,
+          "EndLedNumber": 5,
+          "StopOverEndValue": false,
+          "StopBeyondStartValue": true,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": false,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "StartValue": 0.0,
+          "StartValueIncluded": false,
+          "EndValueIncluded": true,
+          "EndValue": 62.5,
+          "IsRGBMapping": false,
+          "LedColor": 0,
+          "BlinkDelay": 100
+        },
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "Rpms",
+          "StartLedNumber": 6,
+          "EndLedNumber": 8,
+          "StopOverEndValue": false,
+          "StopBeyondStartValue": true,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": true,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "StartValue": 62.5,
+          "StartValueIncluded": false,
+          "EndValueIncluded": true,
+          "EndValue": 100.0,
+          "IsRGBMapping": false,
+          "LedColor": 1,
+          "BlinkDelay": 100
+        },
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "Rpms",
+          "StartLedNumber": 1,
+          "EndLedNumber": 12,
+          "StopOverEndValue": false,
+          "StopBeyondStartValue": true,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": false,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 255,
+            "R": 0
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 128,
+            "G": 64,
+            "R": 0
+          },
+          "StartValue": 0.0,
+          "StartValueIncluded": false,
+          "EndValueIncluded": true,
+          "EndValue": 75.0,
+          "IsRGBMapping": true,
+          "LedColor": 0,
+          "BlinkDelay": 100
+        },
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "Rpms",
+          "StartLedNumber": 13,
+          "EndLedNumber": 16,
+          "StopOverEndValue": false,
+          "StopBeyondStartValue": true,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": true,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 0,
+            "R": 255
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 0,
+            "G": 0,
+            "R": 255
+          },
+          "StartValue": 75.0,
+          "StartValueIncluded": false,
+          "EndValueIncluded": true,
+          "EndValue": 100.0,
+          "IsRGBMapping": true,
+          "LedColor": 0,
+          "BlinkDelay": 100
+        },
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "SessionBestDeltaProgress",
+          "StartLedNumber": 9,
+          "EndLedNumber": 16,
+          "StopOverEndValue": true,
+          "StopBeyondStartValue": false,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": true,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "StartValue": 0.0,
+          "StartValueIncluded": true,
+          "EndValueIncluded": true,
+          "EndValue": -1.2,
+          "IsRGBMapping": false,
+          "LedColor": 0,
+          "BlinkDelay": 100
+        },
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "SessionBestDeltaProgress",
+          "StartLedNumber": 9,
+          "EndLedNumber": 16,
+          "StopOverEndValue": false,
+          "StopBeyondStartValue": true,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": true,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "StartValue": 0.0,
+          "StartValueIncluded": false,
+          "EndValueIncluded": true,
+          "EndValue": 1.2,
+          "IsRGBMapping": false,
+          "LedColor": 1,
+          "BlinkDelay": 100
+        },
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "FuelLaps",
+          "StartLedNumber": 17,
+          "EndLedNumber": 24,
+          "StopOverEndValue": false,
+          "StopBeyondStartValue": true,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": true,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "StartValue": 0.0,
+          "StartValueIncluded": false,
+          "EndValueIncluded": true,
+          "EndValue": 8.0,
+          "IsRGBMapping": false,
+          "LedColor": 0,
+          "BlinkDelay": 100
+        },
+        {
+          "Description": null,
+          "ValueExpression": {
+            "Expression": ""
+          },
+          "BlinkingExpression": {
+            "Expression": ""
+          },
+          "EnabledExpression": {
+            "Expression": ""
+          },
+          "MappingMode": 0,
+          "DataSource": "FuelLaps",
+          "StartLedNumber": 17,
+          "EndLedNumber": 18,
+          "StopOverEndValue": false,
+          "StopBeyondStartValue": true,
+          "StepValues": true,
+          "ProgressiveLeds": false,
+          "AllowBlinking": true,
+          "OneLedOutOfTwo": false,
+          "StartColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "GradientOnAllLeds": false,
+          "EndColor": {
+            "B": 0,
+            "G": 0,
+            "R": 0
+          },
+          "StartValue": 0.0,
+          "StartValueIncluded": false,
+          "EndValueIncluded": true,
+          "EndValue": 2.0,
+          "IsRGBMapping": false,
+          "LedColor": 1,
+          "BlinkDelay": 100
+        }
+      ],
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "IsCommon": false,
+      "IsInGame": true,
+      "IsIdle": true,
+      "IsActive": true
+    }
+  ],
+  "RpmBlinkingLevel": 92.0,
+  "RPMStartOffset": 45.0,
+  "Screens": [
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.CurrentLap",
+            "FixedLength": 3,
+            "FormatString": "0",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.CurrentLap",
+            "RightAlign": false,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.Gear",
+            "FixedLength": 1,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.Gear",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.SpeedKmh",
+            "FixedLength": 4,
+            "FormatString": "0",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.SpeedKmh",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.CurrentLap",
+              "FixedLength": 3,
+              "FormatString": "0",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.CurrentLap",
+              "RightAlign": false,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.Gear",
+              "FixedLength": 1,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.Gear",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.SpeedLocal",
+              "FixedLength": 4,
+              "FormatString": "0",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.SpeedLocal",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "MainScreen"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.CurrentLapTime",
+            "FixedLength": 4,
+            "FormatString": "mm\\.ss",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.CurrentLapTime",
+            "RightAlign": false,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "DataCorePlugin.CustomExpression.CompactDelta",
+            "FixedLength": 4,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.CustomExpression.CompactDelta",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.CurrentLapTime",
+              "FixedLength": 4,
+              "FormatString": "mm\\.ss",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.CurrentLapTime",
+              "RightAlign": false,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.CustomExpression.CompactDelta",
+              "FixedLength": 4,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.CustomExpression.CompactDelta",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "CURR. Lap"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "CURR. Lap"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "CurrentLap"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.LastLapTime",
+            "FixedLength": 8,
+            "FormatString": "mm\\.ss\\.fff",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.LastLapTime",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.LastLapTime",
+              "FixedLength": 8,
+              "FormatString": "mm\\.ss\\.fff",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.LastLapTime",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "LAST LAP"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "LAST LAP"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "LastLap"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.BestLapTime",
+            "FixedLength": 8,
+            "FormatString": "m\\.ss\\.fff",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.BestLapTime",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.BestLapTime",
+              "FixedLength": 8,
+              "FormatString": "m\\.ss\\.fff",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.BestLapTime",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "BEST LAP"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "BEST LAP"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "BestLap"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature1",
+            "FixedLength": 4,
+            "FormatString": "0°",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature1",
+            "RightAlign": false,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature2",
+            "FixedLength": 4,
+            "FormatString": "0°",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature2",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature1",
+              "FixedLength": 4,
+              "FormatString": "0°",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature1",
+              "RightAlign": false,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature2",
+              "FixedLength": 4,
+              "FormatString": "0°",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature2",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "FRONT.TYRES"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "FRONT.TYRES"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "FrontTyres"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature3",
+            "FixedLength": 4,
+            "FormatString": "0°",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature3",
+            "RightAlign": false,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature4",
+            "FixedLength": 4,
+            "FormatString": "0°",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature4",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature3",
+              "FixedLength": 4,
+              "FormatString": "0°",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature3",
+              "RightAlign": false,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature4",
+              "FixedLength": 4,
+              "FormatString": "0°",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.TyreCoreTemperature4",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "ReaR TYR."
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "ReaR TYR."
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "RearTyres"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.Fuel",
+            "FixedLength": 8,
+            "FormatString": "0L",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.Fuel",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.Fuel",
+              "FixedLength": 8,
+              "FormatString": "0L",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.Fuel",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "REM FUEL"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "REM FUEL"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "FuelRemainingLiters"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.Computed.Fuel_LitersPerLap",
+            "FixedLength": 3,
+            "FormatString": "0L",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.Computed.Fuel_LitersPerLap",
+            "RightAlign": false,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+            "FixedLength": 5,
+            "FormatString": "0LA",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.Computed.Fuel_LitersPerLap",
+              "FixedLength": 3,
+              "FormatString": "0L",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.Computed.Fuel_LitersPerLap",
+              "RightAlign": false,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+              "FixedLength": 5,
+              "FormatString": "0LA",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "FUEL.CONS"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "FUEL.CONS"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": true,
+      "ScreenName": "FueLapConsumption"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": false,
+            "Text": "LoFu",
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+            "FixedLength": 4,
+            "FormatString": "0.0r",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": false,
+              "Text": "LoFu",
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+              "FixedLength": 4,
+              "FormatString": "0.0r",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 200,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "LowFuelAlert"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "PersistantTrackerPlugin.AllTimeBestLastLapDelta",
+            "FixedLength": 8,
+            "FormatString": "0.000",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "PersistantTrackerPlugin.AllTimeBestLastLapDelta",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "PersistantTrackerPlugin.AllTimeBestLastLapDelta",
+              "FixedLength": 8,
+              "FormatString": "0.000",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "PersistantTrackerPlugin.AllTimeBestLastLapDelta",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "LAP DELT"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "LAP DELT"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "NewLapDelta"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.GameData.NewData.LastLapTime",
+            "FixedLength": 8,
+            "FormatString": "m\\.ss\\.fff",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameData.NewData.LastLapTime",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.LastLapTime",
+              "FixedLength": 8,
+              "FormatString": "m\\.ss\\.fff",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.LastLapTime",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": "LAP TIme"
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": "LAP TIme"
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "NewLapLastTime"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": false,
+            "Text": "BEST.LAP",
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": false,
+              "Text": "BEST.LAP",
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 200,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "NewAllTimeBestLap"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": false,
+            "Text": "SESS.BEST.",
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": false,
+              "Text": "SESS.BEST.",
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 200,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "NewSessionBestLap"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": false,
+            "Text": "RPM Trig",
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [
+          {
+            "Expression": "SerialDashPlugin.BlinkTriggerRatio",
+            "FixedLength": 8,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "SerialDashPlugin.BlinkTriggerRatio",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": false,
+              "Text": "RPM Trig",
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.CarSettings_RedLineSetting",
+              "FixedLength": 8,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.CarSettings_RedLineSetting",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        }
+      ],
+      "ScrenAnnounce": null,
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "BlinkingLevelChanged"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 8,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": true,
+            "Text": "GAME VOL",
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [
+          {
+            "Expression": "DataCorePlugin.GameVolume",
+            "FixedLength": 8,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.GameVolume",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 8,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": true,
+              "Text": "GAME VOL",
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.GameVolume",
+              "FixedLength": 8,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameVolume",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        }
+      ],
+      "ScrenAnnounce": null,
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "GameVolumeChanged"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": false,
+            "Text": "Light  ",
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "SerialDashPlugin.DisplayIntensity",
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "SerialDashPlugin.DisplayIntensity",
+            "RightAlign": false,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": false,
+              "Text": "Light  ",
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "SerialDashPlugin.DisplayIntensity",
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "SerialDashPlugin.DisplayIntensity",
+              "RightAlign": false,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        }
+      ],
+      "ScrenAnnounce": null,
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "DisplayIntensityChanged"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": false,
+            "Text": "RPMS",
+            "Formula": {
+              "Expression": null
+            }
+          },
+          {
+            "Expression": "SerialDashPlugin.RPMStartOffset",
+            "FixedLength": 4,
+            "FormatString": "0",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "SerialDashPlugin.RPMStartOffset",
+            "RightAlign": true,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": false,
+              "Text": "RPMS",
+              "Formula": {
+                "Expression": null
+              }
+            },
+            {
+              "Expression": "DataCorePlugin.GameData.NewData.CarSettings_MinimumShownRPM",
+              "FixedLength": 4,
+              "FormatString": "0",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.GameData.NewData.CarSettings_MinimumShownRPM",
+              "RightAlign": true,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": null
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "RPMStartChanged"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": "DataCorePlugin.CustomExpression.CurrentDateTime",
+            "FixedLength": 0,
+            "FormatString": " HH.mm.ss",
+            "LineReturn": false,
+            "Mode": 2,
+            "ReadonlyExpression": "DataCorePlugin.CustomExpression.CurrentDateTime",
+            "RightAlign": false,
+            "Text": null,
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": "DataCorePlugin.CustomExpression.CurrentDateTime",
+              "FixedLength": 0,
+              "FormatString": " HH.mm.ss",
+              "LineReturn": false,
+              "Mode": 2,
+              "ReadonlyExpression": "DataCorePlugin.CustomExpression.CurrentDateTime",
+              "RightAlign": false,
+              "Text": null,
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": true,
+      "GameRunningScreen": false,
+      "ScreenName": "TimeScreen"
+    },
+    {
+      "ScreenVersion": 2,
+      "IsActive": false,
+      "ForcedLedLayout": "None",
+      "ForcedLedLayoutText": null,
+      "GameRestriction": {
+        "SupportedGames": []
+      },
+      "ScrenParts": [
+        [
+          {
+            "Expression": null,
+            "FixedLength": 0,
+            "FormatString": "",
+            "LineReturn": false,
+            "Mode": 1,
+            "ReadonlyExpression": null,
+            "RightAlign": false,
+            "Text": "GoodLuck",
+            "Formula": {
+              "Expression": null
+            }
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "Modules": [
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [
+            {
+              "Expression": null,
+              "FixedLength": 0,
+              "FormatString": "",
+              "LineReturn": false,
+              "Mode": 1,
+              "ReadonlyExpression": null,
+              "RightAlign": false,
+              "Text": "GoodLuck",
+              "Formula": {
+                "Expression": null
+              }
+            }
+          ],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        },
+        {
+          "PreviewType": 0,
+          "ScreenType": 0,
+          "ModuleParts": [],
+          "Announce": {
+            "AnnounceText": ""
+          }
+        }
+      ],
+      "ScrenAnnounce": [
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        },
+        {
+          "AnnounceText": ""
+        }
+      ],
+      "BlinkFrequency": 0,
+      "GameNotRunningScreen": false,
+      "GameRunningScreen": false,
+      "ScreenName": "WelcomeScreen"
+    }
+  ],
+  "TachCalibrationPoints": [
+    {
+      "Delta": 0,
+      "RPM": 0
+    },
+    {
+      "Delta": 0,
+      "RPM": 1000
+    },
+    {
+      "Delta": 0,
+      "RPM": 2000
+    },
+    {
+      "Delta": 0,
+      "RPM": 3000
+    },
+    {
+      "Delta": 0,
+      "RPM": 4000
+    },
+    {
+      "Delta": 0,
+      "RPM": 5000
+    },
+    {
+      "Delta": 0,
+      "RPM": 6000
+    },
+    {
+      "Delta": 0,
+      "RPM": 7000
+    },
+    {
+      "Delta": 0,
+      "RPM": 8000
+    },
+    {
+      "Delta": 0,
+      "RPM": 9000
+    },
+    {
+      "Delta": 0,
+      "RPM": 10000
+    },
+    {
+      "Delta": 0,
+      "RPM": 11000
+    },
+    {
+      "Delta": 0,
+      "RPM": 12000
+    }
+  ],
+  "TachCylinders": 4.0,
+  "TachMaxkRPM": 11.0,
+  "TachStartRPMPercent": 0.0,
+  "TachUseFullRange": false
+}

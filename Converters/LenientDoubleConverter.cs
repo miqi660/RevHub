@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Windows.Data;
 
-namespace ForzaUDPReader.WPF.Converters
+namespace RevHub.Converters
 {
     /// <summary>
     /// 宽容的 string ↔ double 双向转换器。

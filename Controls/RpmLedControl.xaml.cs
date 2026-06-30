@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace ForzaUDPReader.WPF.Controls
+namespace RevHub.Controls
 {
     /// <summary>
     /// 7个圆形 RPM LED 指示灯条 (3绿 + 2黄 + 2红)

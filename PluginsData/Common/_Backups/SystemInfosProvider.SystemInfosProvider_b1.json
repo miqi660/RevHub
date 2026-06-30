@@ -1,0 +1,57 @@
+{
+  "EnabledPlugins": {
+    "Aida64": false,
+    "Afterburner": true,
+    "OpenHardwareMonitor": true,
+    "HWiNFO64": false
+  },
+  "MainCPUTemp": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "Afterburner",
+    "PluginValue": "CPU_temperature_Degrees"
+  },
+  "MainCPUFanSpeed": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "Afterburner",
+    "PluginValue": null
+  },
+  "MainCPULoad": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "OpenHardwareMonitor",
+    "PluginValue": "CPULoadPercent"
+  },
+  "MemoryLoad": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "OpenHardwareMonitor",
+    "PluginValue": "MemoryLoadPercent"
+  },
+  "MainGPUTemp": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "Afterburner",
+    "PluginValue": "GPU1_temperature_Degrees"
+  },
+  "MainGPULoad": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "Afterburner",
+    "PluginValue": "GPU1_usage_Percent"
+  },
+  "MainGPUFanSpeed": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "Afterburner",
+    "PluginValue": "GPU1_fan_tachometer_RPM"
+  },
+  "CurrentFrameRate": {
+    "IsEnabled": true,
+    "IsConnected": true,
+    "PluginName": "Afterburner",
+    "PluginValue": "Framerate_FPS"
+  },
+  "SelectedProviderName": null
+}
